@@ -1,51 +1,52 @@
 body {
     background-image: url("videoblocks-digital-rain-animation-part-1_bn0vs8qgg_thumbnail-full01.png");
     /* background-color: #cccccc; */
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+        /* Full height */
+        height: 100%; 
+        background-size: cover;
  }
  .logo{
      height:80px;
      width:150px;
-     display:inline-block;
      margin-top:50pt;
-     margin-left: 500pt;
-     margin-right: auto;
+     display:inline-block;
      /* position: sticky; */
+     
      
  }
 #name{
     font-family: roboto,sans-serif;
-    font-size: 80px;
-    margin-top: 100px;
-    font-weight: 600;
+    font-size: 3rem;
+    display:inline-block;
+
     color:white;
 }
 #ed{
     font-family: roboto,sans-serif;
-    font-size: 80px;
-    margin-top: 50pt;
-    font-weight: 600;
+    font-size: 3rem;
+    display:inline-block;
     color:blue;
 }
 
 #search-bar{
-    height:60px;
+  
     background:#39484D;
-    font-size: 1.76em;
+    font-size: 1.5em;
     text-align: center;
     color: #7291a1;
     padding: 6px 0;
     display: block;
     width: 40%;
-    border: 0;
+    border-radius: 5%;
     margin-top:auto;
     margin-left: auto;
     margin-right: auto;
     transition: .2s cubic-bezier(.4,0,.2,1);
     font-family: product sans,Arial,sans-serif;
     cursor: text;
-    margin-top:80px;
+
 }
 .container{
     display:flex;
@@ -69,8 +70,8 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    width:80px;
-    height:80px;
+    width:60px;
+    height:60px;
     border-radius: 50%;
 }
 
